@@ -959,7 +959,11 @@ footer {
     .projects-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-
+.project-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
     .featured-project {
         grid-column: span 1;
     }
